@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: Apache-2.0
+menuconfig RCL_LOGGING
+        bool "RCL_LOGGING support"
+        help
+          This option enables RCL_LOGGING
+
+if RCLC
+
+endif
+
